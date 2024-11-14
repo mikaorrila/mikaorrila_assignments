@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background: rgb(255, 255, 255) url("images/backround.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+}
+/* Style for the list of choices */
+.center-container ul {
+    list-style-type: none;      /* Remove bullets from list */
+    padding: 0;                 /* Remove default padding */
+    margin: 10px 0;             /* Add margin around the list */
+}
+
+.center-container li {
+    margin: 5px 0;              /* Space between list items */
+    font-size: 1.1em;           /* Increase font size for readability */
+}
+
+/* Style for links */
+.center-container a {
+    display: block;             /* Make links appear on separate lines */
+    margin: 10px 0;             /* Add margin around links */
+    color: #007bff;             /* Customize link color */
+    text-decoration: none;      /* Remove underline */
+}
+
+.center-container a:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+}
+
+.choice-box {
+    width: 300px;              /* Set a fixed width for the box */
+    padding: 10px 15px;        /* Add padding inside the box */
+    margin: 8px 0;             /* Space between each choice box */
+    border: 1px solid #ddd;    /* Light border to define the box */
+    border-radius: 5px;        /* Optional: rounded corners */
+    background-color: #f9f9f9; /* Optional: light background color */
+    text-align: left;          /* Align content inside box to the left */
+    margin-left: 20px;
+}
+
+/* Center the links */
+.center-container a {
+    margin-top: 5px;          /* Add margin to separate the links */
+    padding: 8px 16px;
+    font-size: 1em;
+    color: #007bff;            /* Blue color for links */
+    text-decoration: none;     /* Remove underline */
+}
+
+.center-container a:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+.vote-button {
+    width: 10%;             /* Same width as choice boxes */
+    padding: 10px 0 10px 0;
+    margin-left: 20px;        /* Align with the other choices (same margin) */
+    font-size: 1.2em;         /* Slightly larger font size for the button */
+    cursor: pointer;         /* Pointer cursor to indicate it's clickable */
+    background-color: #007bff; /* Blue background color */
+    color: white;             /* White text */
+    border: none;             /* Remove border */
+    border-radius: 5px;       /* Rounded corners for the button */
+    text-align: center;
+}
