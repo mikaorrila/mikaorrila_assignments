@@ -1,0 +1,161 @@
+[
+{
+    "model": "polls.question",
+    "pk": 1,
+    "fields": {
+        "question_text": "Your favorite hobby?",
+        "pub_date": "2024-11-15T08:59:17Z"
+    }
+},
+{
+    "model": "polls.question",
+    "pk": 2,
+    "fields": {
+        "question_text": "How old are you?",
+        "pub_date": "2024-11-15T09:01:07Z"
+    }
+},
+{
+    "model": "polls.question",
+    "pk": 3,
+    "fields": {
+        "question_text": "How are you?",
+        "pub_date": "2024-11-15T09:02:38Z"
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 1,
+    "fields": {
+        "question": 1,
+        "choice_text": "Football",
+        "votes": 0
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 2,
+    "fields": {
+        "question": 1,
+        "choice_text": "Ice Hockey",
+        "votes": 0
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 3,
+    "fields": {
+        "question": 1,
+        "choice_text": "Floorball",
+        "votes": 0
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 4,
+    "fields": {
+        "question": 1,
+        "choice_text": "Judo",
+        "votes": 0
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 5,
+    "fields": {
+        "question": 2,
+        "choice_text": "Under 10",
+        "votes": 0
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 6,
+    "fields": {
+        "question": 2,
+        "choice_text": "10 to 20",
+        "votes": 0
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 7,
+    "fields": {
+        "question": 2,
+        "choice_text": "20 to 30",
+        "votes": 0
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 8,
+    "fields": {
+        "question": 2,
+        "choice_text": "30 to 40",
+        "votes": 0
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 9,
+    "fields": {
+        "question": 2,
+        "choice_text": "40 to 50",
+        "votes": 0
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 10,
+    "fields": {
+        "question": 2,
+        "choice_text": "Over 50",
+        "votes": 0
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 11,
+    "fields": {
+        "question": 3,
+        "choice_text": "Good, thanks",
+        "votes": 0
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 12,
+    "fields": {
+        "question": 3,
+        "choice_text": "Pretty good",
+        "votes": 0
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 13,
+    "fields": {
+        "question": 3,
+        "choice_text": "Not good",
+        "votes": 0
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 14,
+    "fields": {
+        "question": 3,
+        "choice_text": "Pretty bad",
+        "votes": 0
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 15,
+    "fields": {
+        "question": 3,
+        "choice_text": "Reaallyyyy bad, sorry",
+        "votes": 0
+    }
+}
+]
